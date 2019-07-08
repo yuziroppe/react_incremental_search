@@ -1,2 +1,3 @@
-# react_incremental_search
-ReactでIncrementalSearchを実装しました
+# React Incremental Search
+ReactでIncrementalSearchを実装しました。
+UX的に素晴らしいIncremental Searchを目指します。
