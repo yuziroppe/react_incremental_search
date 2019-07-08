@@ -1,0 +1,93 @@
+.lock {
+    overflow: hidden !important;
+  }
+  .incrementalSearch {
+    display: inline-block;
+    position: absolute;
+    max-height: 300px;
+    overflow: auto;
+    z-index: 1;
+    background-color: inherit;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    cursor: pointer;
+  }
+  .input {
+    min-width: 135px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 40px;
+    border: solid 1px #adabab;
+    padding: 15px 30px;
+    min-height: 40px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  .ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-left: solid 1px #ddd;
+    border-right: solid 1px #ddd;
+    background-color: #fff;
+    z-index: 1;
+    overflow: auto;
+  }
+  .li {
+    border-bottom: solid 1px #ddd;
+    padding: 15px 30px;
+    border: none;
+    white-space: nowrap;
+    outline: none;
+  }
+  .li:focus {
+    background-color: #ddd;
+  }
+  .li:hover {
+    background-color: #eee;
+  }
+  .li:last-child {
+    border-bottom: none;
+  }
+  .search {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding: 0 0 10px 0;
+    background-color: inherit;
+  }
+  .select {
+    max-width: 100%;
+    font-family: acumin-pro-semi-condensed, sans-serif;
+    cursor: pointer;
+    background-color: rgba(205, 225, 238, 0.92);
+    position: relative;
+    -webkit-appearance: none;
+    border-radius: 40px;
+    border: solid 1px #bad0de;
+    padding: 0 45px 0 30px;
+    height: 50px;
+    min-height: 40px;
+    box-sizing: border-box;
+    background-image: url(/images/244.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0 10px 0 0;
+    min-width: 135px;
+    font-size: 20px;
+    line-height: 1em;
+    box-shadow: inset 1px 1px 7px rgba(255, 255, 255, 0.16),
+      inset -1px -1px 7px rgba(0, 0, 0, 0.16);
+    color: #59595b;
+  }
+  .select::after {
+    content: '';
+    display: block;
+    height: 10px;
+    width: 10px;
+    background-color: #f00;
+    position: absolute;
+  }
+  .select:hover {
+    background-color: #bad0de;
+  }
